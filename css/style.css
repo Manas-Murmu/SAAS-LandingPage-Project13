@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Orbitron:wght@800&family=Oswald:wght@200;500&family=Poppins:ital,wght@0,400;0,700;0,800;1,600&family=Roboto:wght@500&family=Sansita+Swashed&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #ffffff;
+  background-color: #592a9e;
+}
+.navbar-container,
+.hero {
+  margin: 2% 5%;
+}
+
+.container {
+  margin: 2% 5%;
+}
+.logo {
+  width: 120px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-left: 350px;
+}
+.list-item {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.list-item-active {
+  list-style-type: none;
+  color: #fdfdfd;
+  background: #5ba0e0;
+  padding: 10px 20px;
+}
+.list-item:first-child {
+  font-weight: 900;
+  color: #5ba0e0;
+  text-decoration: underline;
+}
+
+/* ---------Hero-section------ */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-heading h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+.hero-heading p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* ---------Information-section------ */
+
+.Information {
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-image {
+  margin-top: 50px;
+}
+.info-data h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.info-data {
+  margin-left: 50px;
+}
+.info-headings {
+  line-height: 1.5;
+  margin-top: 35px;
+}
+.info-headings > h4 {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.info-headings p {
+  font-size: 15px;
+  margin-left: 65px;
+  font-weight: 300;
+  color: #3b3737;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: #08baf5;
+}
+
+/* <!-- -----------Headline-section--------------- --> */
+
+.headline {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.headline h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* -----------Feauture-section */
+.feature {
+  padding: 50px 150px;
+  color: black;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+.card {
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  font-weight: 300;
+}
+.card-items {
+  padding-top: 20px;
+}
+.card-info {
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  margin-top: 10px;
+  height: 120px;
+  border-radius: 20px;
+  text-align: center;
+}
+.dark {
+  background-color: #592a9e;
+  color: white;
+}
+.card-info h3 {
+  font-weight: 600;
+}
+.card-info p {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.card-items img {
+  border-radius: 50%;
+  width: 100px;
+  padding: 30px;
+}
+
+.web {
+  background-color: #ffe3e3;
+  /* filter: invert(52%) sepia(24%) saturate(4745%) hue-rotate(324deg) brightness(109%) contrast(106%); */
+}
+.data {
+  background-color: #ffedbd;
+}
+.FullySecured {
+  background-color: #a8f3b8;
+}
+.headphone {
+  background-color: #efc9ff;
+}
