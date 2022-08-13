@@ -190,6 +190,9 @@ body {
   .feature {
     grid-template-columns: 1fr;
   }
+  .hero-heading {
+    order: 2;
+  }
   .list {
     display: none;
   }
@@ -201,10 +204,24 @@ body {
   }
   .headline h1 {
     font-size: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .hero-heading h1 {
+    text-align: center;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+  .hero-heading p {
+    margin-bottom: 50px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .info-data h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .info-data {
+    margin-left: 0px;
   }
 }
